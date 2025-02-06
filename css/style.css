@@ -41,12 +41,13 @@ a {
     --primarycolor: #5933D3;
     --bgcolor: #0d0d0d;
 }
+/* ------------------------common css end----------------------- */
 
 
+/* ------------------------main css start----------------------- */
 
 
-
-
+/* ------------------------navbar start----------------------- */
 .navbar {
     background: var(--bgcolor);
     padding: 10px 0 !important;
@@ -125,10 +126,10 @@ nav .abtn button:hover {
     background: var(--white);
     color: var(--black);
 }
+/* ------------------------navbar end----------------------- */
 
 
-
-
+/* ------------------------home_part start----------------------- */
 #home_part {
     background: var(--bgcolor);
     padding: 60px 0;
@@ -243,10 +244,10 @@ nav .abtn button:hover {
     object-fit: cover;
     
 }
+/* ------------------------home_part end----------------------- */
 
 
-
-
+/* ------------------------bio_part start----------------------- */
 #bio_part {
     padding: 45px 0;
     background: #110517;
@@ -266,146 +267,150 @@ nav .abtn button:hover {
     line-height: 138.7%;
     margin: 35px 0 0;
 }
+/* ------------------------bio_part end----------------------- */
 
-/* ------------------------contact_part----------------------- */
 
-#contact_part {
-    padding: 199PX 0;
-    background: #DADADA;
+/* ---------------------contact_part start-------------------- */
+#contact_part{
+    padding: 100px 0;
+    background: #ffffff;
 }
 
-#contact_part .container .main .text .p1 {
-    font-size: 18px;
-    line-height: 24px;
+#contact_part .text{
+    margin-bottom: 64PX;
+}
+
+#contact_part .text p{
+    font-size: 21.33px;
+    line-height: 32px;
     font-weight: 600;
-    color: #141313;
+    color: var(--black);
 }
 
-#contact_part .container .main .text h2 {
-    font-size: 48px;
-    line-height: 56px;
-    font-weight: 700;
-    color: #141313;
-    margin: 16px 0 30px;
-}
-
-#contact_part .container .main .text .p2 {
-    max-width: 300px;
-    font-size: 16px;
-    line-height: 24px;
+#contact_part .text p:last-child{
+    max-width: 825PX;
+    font-size: 24px;
+    line-height: 36px;
     font-weight: 400;
-    color: #141313;
+    color: var(--black);
+    margin: 0 auto;
 }
 
-#contact_part .container .main .child {
-    margin-top: 94px;
-}
-
-#contact_part .container .main .child .contact a {
-    font-size: 32px;
-    line-height: 40px;
-    font-weight: 700;
-    color: #141313;
-    display: flex;
-}
-
-#contact_part .container .main .child .contact a:last-child {
-    margin: 20px 0 80px
-}
-
-#contact_part .container .main .child .icon {
-    display: flex;
-    gap: 24px;
-}
-
-#contact_part .container .main .child .icon a {
-    font-size: 16px;
-    line-height: 24px;
+#contact_part .text .heading h2{
+    padding: 20px 60px;
+    font-size: 30px;
+    line-height: 127.9%;
     font-weight: 500;
-    color: #141313;
-}
-
-
-#contact_part .container .right {
-    margin-left: 26px;
-}
-
-#contact_part .container .right .child {
-    padding: 64px 85px;
-    background: rgb(0, 0, 0);
-    background: linear-gradient(211deg, rgba(0, 0, 0, 1) 28%, rgba(89, 51, 211, 1) 100%);
-    border-radius: 20px;
-}
-
-#contact_part .container .right .child form h3 {
-    font-size: 40px;
-    line-height: 48px;
-    font-weight: 700;
-    color: var(--white);
-}
-
-#contact_part .container .right .child form .input1 {
-    margin-right: 45px;
-}
-
-#contact_part .container .right .child form input {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    color: var(--white);
-    padding: 0 100px 10px 0;
-    margin: 50px 0;
-    background: transparent;
-    outline: none;
-    border: 0;
-    border-bottom: 1.5px solid var(--white);
-}
-
-#contact_part .container .right .child form input::placeholder {
-    color: var(--white);
-}
-
-#contact_part .container .right .child form textarea {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 500;
-    color: var(--white);
-    width: 100%;
-    padding: 0 0 60px 0;
-    background: transparent;
-    outline: none;
-    border: 0;
-    border-bottom: 1.5px solid var(--white);
-}
-
-#contact_part .container .right .child form textarea::placeholder {
-    color: var(--white);
-}
-
-#contact_part .container .right .child form button {
-    padding: 16px 40px;
-    font-size: 18px;
-    line-height: 24px;
-    font-weight: 500;
-    border: 0;
-    color: var(--white);
-    background: #141313;
+    color: #1859a9;
+    border: 8px solid var(--black);
     border-radius: 10px;
-    margin-top: 40px;
-    transition: .4s all linear;
+    margin: 20PX 0;
 }
 
-#contact_part .container .right .child form button:hover {
-    background: var(--white);
-    color: var(--primarycolor);
+#contact_part .container form input{
+    font-size: 21.33px;
+    line-height: 32px;
+    font-weight: 400;
+	color: #bcbcbc;
+	outline: none;
+	background: transparent;
+	padding: 18px 19px;
+	margin-bottom: 30px;
+	width: 70%;
+    border-radius: 5px;
+	border: 3PX solid #505050;
 }
 
+#contact_part .container form input::placeholder{
+	color: #a9a8a8;
+}
+
+#contact_part .container form textarea{
+    font-size: 21.33px;
+    line-height: 32px;
+    font-weight: 400;
+	color: #bcbcbc;
+	outline: none;
+	background: transparent;
+	padding: 18px 19px 46px;
+	margin-bottom: 30px;
+	width: 70%;
+	border: 3PX solid #505050;
+    border-radius: 5px;
+}
+
+#contact_part .container form textarea::placeholder{
+	color: #a9a8a8;
+}
+
+#contact_part .container form button{
+	padding: 15px 70PX ;
+    margin: 0;
+    color: var(--white);
+    background: var(--primarycolor);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.4s all linear;
+}
+
+#contact_part .container form button:hover{
+	border: 2px solid var(--primarycolor);
+    background: transparent;
+    color: #1859a9;
+}
+/* ---------------------contact_part end-------------------- */
 
 
+/* ---------------------FOOTER_PART start-------------------- */
+#FOOTER_PART{
+    padding: 60px 0 0;
+    background: #F8F8F8;
+}
+
+#FOOTER_PART .main ul{
+    column-gap: 40px;
+    margin: 45px 0;
+}
+
+#FOOTER_PART .main ul li a{
+    font-size: 21.33px;
+    line-height: 32px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+#FOOTER_PART .main .icons{
+    display: flex;
+    column-gap: 25px;
+}
+
+#FOOTER_PART .main .icons a i{
+    font-size: 28px;
+    color: var(--black);
+}
+
+#FOOTER_PART .last_part{
+    margin-top: 60px;
+    padding: 26px;
+    background: #545454;
+}
+
+#FOOTER_PART .last_part p{
+    font-size: 21px;
+    line-height: 31.5px;
+    font-weight: 400;
+    color: var(--black);
+}
+
+#FOOTER_PART .last_part p span{
+    color: #001f3f;
+}
+/* ---------------------FOOTER_PART ens-------------------- */
 
 
-
-
+/* --------------------aboutme_part start------------------ */
 #aboutme_part{
     padding: 211px 0;
     background: var(--bgcolor);
@@ -465,13 +470,10 @@ nav .abtn button:hover {
 #aboutme_part .right .image img{
     height: 806px;
 }
+/* --------------------aboutme_part ens------------------ */
 
 
-
-
-
-
-
+/* --------------------skill_part start------------------ */
 #skill_part{
     padding: 60px 0;
     background: #DADADA;
@@ -511,14 +513,12 @@ nav .abtn button:hover {
     margin-top: 20px;
 }
 
-
 #skill_part .second h3{
     font-size: 30px;
     font-weight: bold;
     color: var(--black);
     margin-bottom: 75px;
 }
-
 
 #skill_part .second .main{
     gap: 168px;
@@ -530,11 +530,10 @@ nav .abtn button:hover {
     color: var(--black);
     margin-top: 20px;
 }
+/* --------------------skill_part end------------------ */
 
 
-
-
-
+/* -----------------portfolio_part start--------------- */
 #portfolio_part {
     padding: 60px 0;
     background: #000000;
@@ -558,14 +557,17 @@ nav .abtn button:hover {
 #portfolio_part .container .child {
     background: #212529;
     text-align: center;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(170,143,224,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(170,143,224,1);
+    box-shadow: 0px 0px 10px 0px rgba(170,143,224,1);
 }
 
 #portfolio_part .container .child a img {
     width: 100%;
     /* height: 350px; */
-    border-radius: 0 0 20px 20px;
+    border-radius: 0 0 15px 15px;
     object-fit: cover;
     cursor: pointer;
 }
@@ -580,6 +582,7 @@ nav .abtn button:hover {
 #portfolio_part .container .child .text{
     padding: 10px 15px;
 }
+
 /* 
 #portfolio_part .container .child .text p {
     font-size: 16px;
@@ -599,7 +602,7 @@ nav .abtn button:hover {
     font-weight: 600;
     padding: 13px 35px;
     color: var(--white);
-    background: #000000;
+    background: #2F2F2F;
     border-radius: 10px;
     transition: all linear .4s;
 }
@@ -607,3 +610,4 @@ nav .abtn button:hover {
 #portfolio_part .container .child .text .btn a:hover {
     transform: scale(1.1);
 }
+/* -----------------portfolio_part end--------------- */

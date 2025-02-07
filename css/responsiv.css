@@ -1,0 +1,186 @@
+@media (min-width: 320px) and (max-width: 575.98px) {
+
+/* ------------------------home_part start----------------------- */
+#home_part {
+    padding: 40px 0;
+}
+
+#home_part .container .main .row{
+    flex-direction: column-reverse;
+}
+
+#home_part .container .main .row .right .right1 {
+    justify-content: center;
+}
+
+#home_part .container .main .row .right img {
+    height: 400px;
+}
+
+#home_part .container .main .row .text h3 {
+    font-size: 18px;
+}
+
+#home_part .container .main .row .text h2 {
+    font-size: 26px;
+}
+
+#home_part .container .main .row .text p {
+    max-width: 500px;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 15px;
+}
+
+#home_part .container .main .left .icon {
+    column-gap: 15px;
+    margin-top: 20px;
+}
+#home_part .container .main .row .left .btn0 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+}
+
+#home_part .container .main .row .left .btn0 .btn1 {
+    padding: 10px 17px !important;
+    font-size: 13px;
+}
+
+#home_part .container .main .row .left .btn0 .btn2 {
+    padding: 10px 22px !important;
+    border-radius: 10px;
+    font-size: 13px;
+    margin-left: 0;
+}
+
+#bio_part {
+    padding: 30px 0;
+}
+
+#bio_part .container h3 {
+    font-size: 26px;
+}
+
+#bio_part .container p {
+    font-size: 13px;
+    line-height: 134.7%;
+    margin: 20px 0 0;
+}
+
+
+/* --------------------aboutme_part start------------------ */
+#aboutme_part {
+    padding: 0px 0 67px;
+    background: var(--bgcolor);
+}
+
+#aboutme_part .row {
+    flex-direction: column-reverse;
+}
+
+#aboutme_part .right .image {
+    clip-path: circle(37% at 50% 50%);
+}
+
+#aboutme_part .right .image img {
+    height: 620px;
+}
+
+#aboutme_part .left .text h2 {
+    font-size: 26px;
+    line-height: 0;
+}
+
+#aboutme_part .left .text p {
+    font-size: 13px;
+    line-height: 18px;
+    margin: 25px 0;
+}
+
+#aboutme_part .left .text button {
+    padding: 10px 24px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#skill_part {
+    padding: 50px 0;
+}
+
+#skill_part .header h2 {
+    padding: 12px 45px;
+    font-size: 22px;
+    margin-bottom: 50px;
+    border: 6px solid #000000;
+}
+
+#skill_part .first {
+    margin-bottom: 50px;
+}
+
+#skill_part .first h3 {
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+#skill_part .first .main {
+    gap: 0;
+    row-gap: 30px;
+}
+
+#skill_part .first .main .part img {
+    height: 70px;
+}
+
+#skill_part .first .main .part p {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+#skill_part .second h3 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+#skill_part .second .main {
+    gap: 0;
+    justify-content: space-between;
+    margin-top: 0;
+    row-gap: 30px;
+}
+
+#skill_part .second .main .part img {
+    height: 70px;
+}
+
+#skill_part .second .main .part p {
+    font-size: 16px;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+/* -----------------portfolio_part start--------------- */
+#portfolio_part .title h2 {
+    padding: 12px 45px;
+    font-size: 22px;
+    border: 6px solid #dadada;
+}
+
+#portfolio_part .row {
+    margin-top: 50px;
+    row-gap: 40px;
+}
+
+#portfolio_part .container .child .text h3 {
+    font-size: 16px;
+}
+
+#portfolio_part .container .child .text .btn a {
+    font-size: 14px;
+    padding: 10px 30px;
+}
+
+}

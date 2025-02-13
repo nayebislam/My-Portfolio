@@ -41,6 +41,7 @@ a {
     --primarycolor: #5933D3;
     --bgcolor: #0d0d0d;
 }
+
 /* ------------------------common css end----------------------- */
 
 
@@ -67,47 +68,50 @@ a {
 }
 
 .navbar-nav li .nav-link {
-	padding: 5px 34px;
-	color: var(--white);
-	font-weight: 500;
-	font-size: 17px;
-	position: relative;
+    padding: 5px 34px;
+    color: var(--white);
+    font-weight: 500;
+    font-size: 17px;
+    position: relative;
 }
+
 .navbar-nav li .nav-link::after {
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 0;
-	background: var(--white);
-	bottom: -2px;
-	left: 50%;
-	transition: 0.4s;
-	transform: translatex(-50%);
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 0;
+    background: var(--white);
+    bottom: -2px;
+    left: 50%;
+    transition: 0.4s;
+    transform: translatex(-50%);
 }
+
 .navbar-nav li .nav-link:hover:after {
-	position: absolute;
-	content: "";
-	height: 2px;
-	width: 30px;
-	background: var(--white);
-	bottom: -2px;
-	left: 50%;
-	transform: translatex(-50%);
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 30px;
+    background: var(--white);
+    bottom: -2px;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 .navbar .nav-link.active {
-	color: var(--white);
-	position: relative;
+    color: var(--white);
+    position: relative;
 }
+
 .navbar .nav-link.active::after {
-	content: "";
-	position: absolute;
-	height: 2px;
-	width: 30px;
-	background: var(--white);
-	bottom: -2px;
-	left: 50%;
-	transform: translateX(-50%);
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 30px;
+    background: var(--white);
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 nav .abtn button {
@@ -126,6 +130,7 @@ nav .abtn button:hover {
     background: var(--white);
     color: var(--black);
 }
+
 /* ------------------------navbar end----------------------- */
 
 
@@ -242,8 +247,9 @@ nav .abtn button:hover {
 #home_part .container .main .row .right img {
     height: 590px;
     object-fit: cover;
-    
+
 }
+
 /* ------------------------home_part end----------------------- */
 
 
@@ -267,27 +273,28 @@ nav .abtn button:hover {
     line-height: 138.7%;
     margin: 35px 0 0;
 }
+
 /* ------------------------bio_part end----------------------- */
 
 
 /* ---------------------contact_part start-------------------- */
-#contact_part{
-    padding: 100px 0;
+#contact_part {
+    padding: 60px 0;
     background: #ffffff;
 }
 
-#contact_part .text{
+#contact_part .text {
     margin-bottom: 64PX;
 }
 
-#contact_part .text p{
+#contact_part .text p {
     font-size: 21.33px;
     line-height: 32px;
     font-weight: 600;
     color: var(--black);
 }
 
-#contact_part .text p:last-child{
+#contact_part .text p:last-child {
     max-width: 825PX;
     font-size: 24px;
     line-height: 36px;
@@ -296,7 +303,7 @@ nav .abtn button:hover {
     margin: 0 auto;
 }
 
-#contact_part .text .heading h2{
+#contact_part .text .heading h2 {
     padding: 20px 60px;
     font-size: 30px;
     line-height: 127.9%;
@@ -307,44 +314,44 @@ nav .abtn button:hover {
     margin: 20PX 0;
 }
 
-#contact_part .container form input{
+#contact_part .container form input {
     font-size: 21.33px;
     line-height: 32px;
     font-weight: 400;
-	color: #bcbcbc;
-	outline: none;
-	background: transparent;
-	padding: 18px 19px;
-	margin-bottom: 30px;
-	width: 70%;
+    color: #bcbcbc;
+    outline: none;
+    background: transparent;
+    padding: 18px 19px;
+    margin-bottom: 30px;
+    width: 70%;
     border-radius: 5px;
-	border: 3PX solid #505050;
+    border: 3PX solid #505050;
 }
 
-#contact_part .container form input::placeholder{
-	color: #a9a8a8;
+#contact_part .container form input::placeholder {
+    color: #a9a8a8;
 }
 
-#contact_part .container form textarea{
+#contact_part .container form textarea {
     font-size: 21.33px;
     line-height: 32px;
     font-weight: 400;
-	color: #bcbcbc;
-	outline: none;
-	background: transparent;
-	padding: 18px 19px 46px;
-	margin-bottom: 30px;
-	width: 70%;
-	border: 3PX solid #505050;
+    color: #bcbcbc;
+    outline: none;
+    background: transparent;
+    padding: 18px 19px 46px;
+    margin-bottom: 30px;
+    width: 70%;
+    border: 3PX solid #505050;
     border-radius: 5px;
 }
 
-#contact_part .container form textarea::placeholder{
-	color: #a9a8a8;
+#contact_part .container form textarea::placeholder {
+    color: #a9a8a8;
 }
 
-#contact_part .container form button{
-	padding: 15px 70PX ;
+#contact_part .container form button {
+    padding: 15px 70PX;
     margin: 0;
     color: var(--white);
     background: var(--primarycolor);
@@ -355,75 +362,77 @@ nav .abtn button:hover {
     transition: 0.4s all linear;
 }
 
-#contact_part .container form button:hover{
-	border: 2px solid var(--primarycolor);
+#contact_part .container form button:hover {
+    border: 2px solid var(--primarycolor);
     background: transparent;
     color: #1859a9;
 }
+
 /* ---------------------contact_part end-------------------- */
 
 
 /* ---------------------FOOTER_PART start-------------------- */
-#FOOTER_PART{
+#FOOTER_PART {
     padding: 60px 0 0;
     background: #F8F8F8;
 }
 
-#FOOTER_PART .main ul{
+#FOOTER_PART .main ul {
     column-gap: 40px;
     margin: 45px 0;
 }
 
-#FOOTER_PART .main ul li a{
+#FOOTER_PART .main ul li a {
     font-size: 21.33px;
     line-height: 32px;
     font-weight: 500;
     color: var(--black);
 }
 
-#FOOTER_PART .main .icons{
+#FOOTER_PART .main .icons {
     display: flex;
     column-gap: 25px;
 }
 
-#FOOTER_PART .main .icons a i{
+#FOOTER_PART .main .icons a i {
     font-size: 28px;
     color: var(--black);
 }
 
-#FOOTER_PART .last_part{
+#FOOTER_PART .last_part {
     margin-top: 60px;
     padding: 26px;
     background: #545454;
 }
 
-#FOOTER_PART .last_part p{
+#FOOTER_PART .last_part p {
     font-size: 21px;
     line-height: 31.5px;
     font-weight: 400;
     color: var(--black);
 }
 
-#FOOTER_PART .last_part p span{
+#FOOTER_PART .last_part p span {
     color: #001f3f;
 }
+
 /* ---------------------FOOTER_PART ens-------------------- */
 
 
 /* --------------------aboutme_part start------------------ */
-#aboutme_part{
+#aboutme_part {
     padding: 211px 0;
     background: var(--bgcolor);
 }
 
-#aboutme_part .left .text h2{
+#aboutme_part .left .text h2 {
     font-size: 48px;
     line-height: 72px;
     font-weight: 700;
     color: var(--white);
 }
 
-#aboutme_part .left .text p{
+#aboutme_part .left .text p {
     max-width: 580px;
     font-size: 24px;
     line-height: 36px;
@@ -432,7 +441,7 @@ nav .abtn button:hover {
     margin: 32px 0;
 }
 
-#aboutme_part .left .text button{
+#aboutme_part .left .text button {
     padding: 8px 24px;
     font-size: 18px;
     line-height: 27px;
@@ -445,16 +454,16 @@ nav .abtn button:hover {
     transition: all linear .4s;
 }
 
-#aboutme_part .left .text button:hover{
+#aboutme_part .left .text button:hover {
     background: var(--primarycolor);
 }
 
-#aboutme_part .right{
+#aboutme_part .right {
     padding: 0;
     margin: 0;
 }
 
-#aboutme_part .right .image{
+#aboutme_part .right .image {
     clip-path: circle(50% at 50% 50%);
     background: rgba(88, 51, 211, 0.11);
     display: flex;
@@ -462,24 +471,25 @@ nav .abtn button:hover {
     justify-content: center;
 }
 
-#aboutme_part .right .image{
+#aboutme_part .right .image {
     height: 500px;
     object-fit: cover;
 }
 
-#aboutme_part .right .image img{
+#aboutme_part .right .image img {
     height: 806px;
 }
+
 /* --------------------aboutme_part ens------------------ */
 
 
 /* --------------------skill_part start------------------ */
-#skill_part{
+#skill_part {
     padding: 60px 0;
     background: #DADADA;
 }
 
-#skill_part .header h2{
+#skill_part .header h2 {
     padding: 25px 100px;
     font-size: 30px;
     line-height: 127.9%;
@@ -490,46 +500,48 @@ nav .abtn button:hover {
     margin-bottom: 80px;
 }
 
-#skill_part .first h3{
+#skill_part .first h3 {
     font-size: 30px;
     font-weight: bold;
     color: var(--black);
     margin-bottom: 75px;
 }
 
-#skill_part .first{
+#skill_part .first {
     margin-bottom: 75px;
 }
 
-#skill_part .first .main{
+#skill_part .first .main {
     /* gap: 100px; */
     justify-content: space-between;
     margin-top: 30px;
 }
 
-#skill_part .first .main .part p{
+#skill_part .first .main .part p {
     font-size: 24px;
     color: var(--black);
     margin-top: 20px;
 }
 
-#skill_part .second h3{
+#skill_part .second h3 {
     font-size: 30px;
     font-weight: bold;
     color: var(--black);
     margin-bottom: 75px;
 }
 
-#skill_part .second .main{
+#skill_part .second .main {
     gap: 168px;
     /* justify-content: space-between; */
     margin-top: 30px;
 }
-#skill_part .second .main .part p{
+
+#skill_part .second .main .part p {
     font-size: 24px;
     color: var(--black);
     margin-top: 20px;
 }
+
 /* --------------------skill_part end------------------ */
 
 
@@ -539,7 +551,7 @@ nav .abtn button:hover {
     background: #000000;
 }
 
-#portfolio_part .title h2{
+#portfolio_part .title h2 {
     padding: 25px 100px;
     font-size: 30px;
     line-height: 127.9%;
@@ -559,9 +571,9 @@ nav .abtn button:hover {
     text-align: center;
     border-radius: 15px;
     overflow: hidden;
-    -webkit-box-shadow: 0px 0px 10px 0px rgba(170,143,224,1);
-    -moz-box-shadow: 0px 0px 10px 0px rgba(170,143,224,1);
-    box-shadow: 0px 0px 10px 0px rgba(170,143,224,1);
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(170, 143, 224, 1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(170, 143, 224, 1);
+    box-shadow: 0px 0px 10px 0px rgba(170, 143, 224, 1);
 }
 
 #portfolio_part .container .child a img {
@@ -579,7 +591,7 @@ nav .abtn button:hover {
     margin-bottom: 10px;
 }
 
-#portfolio_part .container .child .text{
+#portfolio_part .container .child .text {
     padding: 10px 15px;
 }
 
@@ -592,7 +604,7 @@ nav .abtn button:hover {
     margin: 10px auto 0;
 } */
 
-#portfolio_part .container .child .text .btn{
+#portfolio_part .container .child .text .btn {
     gap: 20px;
     justify-content: space-between;
 }
@@ -610,4 +622,5 @@ nav .abtn button:hover {
 #portfolio_part .container .child .text .btn a:hover {
     transform: scale(1.1);
 }
+
 /* -----------------portfolio_part end--------------- */
